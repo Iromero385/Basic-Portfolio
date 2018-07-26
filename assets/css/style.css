@@ -17,7 +17,6 @@ header{
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960PX;
     height:75px;
-    border-style: solid;
 
 }
 main{
@@ -35,11 +34,16 @@ nav{
 
 }
 .leftCorner{
-    margin-left: 630px;
+    margin-left: 666px;
     padding-top: 25;
+    padding-right: 0;
+    
 }
 .links{
     padding: 25px;
+}
+.lastlink{
+    padding-right: 0;
 }
 img{
     width: 200px;
