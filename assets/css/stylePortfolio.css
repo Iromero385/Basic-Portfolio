@@ -33,6 +33,7 @@ main{
     margin-top: 95px;
     background-color: whitesmoke;
 }
+
 nav{
     position: relative;
     background-color: teal;
@@ -53,23 +54,15 @@ nav{
     padding: 20px;
     font-size: 18px;
 }
+.links:hover{
+    color: brown;
+}
 .lastlink{
     padding-right: 0;
     position: relative;
     right: 10px
 }
-.links:hover{
-    color: brown;
-}
-img{
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-}
-p{
-    display: inline;
-    line-height: 1.6;
-}
+
 h2{
     padding-top: 30px;
     color: rgb(17, 11, 190);
@@ -80,6 +73,13 @@ hr{
 
     margin-bottom: 20px;
 }
+
+img{
+    width: 30%;
+    padding:30px 20px;
+   
+}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -94,7 +94,9 @@ footer{
     border-width: 10px;
 
 }
+.setPics:hover{
+    background-color:rebeccapurple;
+    width: 40%;
 
-
-
+}
 

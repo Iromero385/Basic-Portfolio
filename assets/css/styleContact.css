@@ -33,6 +33,7 @@ main{
     margin-top: 95px;
     background-color: whitesmoke;
 }
+
 nav{
     position: relative;
     background-color: teal;
@@ -53,22 +54,13 @@ nav{
     padding: 20px;
     font-size: 18px;
 }
+.links:hover{
+    color: brown;
+}
 .lastlink{
     padding-right: 0;
     position: relative;
     right: 10px
-}
-.links:hover{
-    color: brown;
-}
-img{
-    width: 200px;
-    float: left;
-    margin-right: 10px;
-}
-p{
-    display: inline;
-    line-height: 1.6;
 }
 h2{
     padding-top: 30px;
@@ -79,6 +71,25 @@ h2{
 hr{
 
     margin-bottom: 20px;
+}
+
+input{
+    width: 910px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.messageBx{
+    height: 160px;
+    text-align: start;
+}
+.SubmiBnt{
+    padding: 10px;
+    width: auto;
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+
 }
 footer{
     position: fixed;
@@ -94,7 +105,5 @@ footer{
     border-width: 10px;
 
 }
-
-
 
 
